@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'poppins', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(42,41,91);
+}
+
+.logo {
+    position: relative; 
+    margin-right: auto; 
+}
+
+.logo_img {
+    height: 60px;
+}
+
+.navbar {
+    position: relative;
+}
+
+.navbar a {
+    font-size: 1.2rem;   
+    font-weight: 500;
+    margin-right: 2rem;
+    color: aquamarine;
+}
+
+.navbar a:hover {
+    color: pink;
+}
+
+#menu-icon {
+    position: relative;
+    font-size:  3.6rem;
+    cursor: pointer;
+    display: none;
+}
